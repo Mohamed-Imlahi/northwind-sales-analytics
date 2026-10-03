@@ -47,18 +47,18 @@ This project presents a comprehensive, end-to-end data analysis pipeline for the
 
 ## Español
 
-### 📌 Descripción del Proyecto
+### Descripción del Proyecto
 Este proyecto es un análisis de datos completo de punta a punta (**End-to-End**) sobre la base de datos comercial **Northwind**. El flujo abarca desde la exploración de datos originales en **SQLite**, el procesamiento y análisis estadístico en **Python (Pandas)**, hasta la creación de un panel de control ejecutivo interactivo en **Power BI**.
 
 ![Dashboard Preview](dashboard/dashboard_preview.png)
 
-### 🛠️ Herramientas y Tecnologías
+###  Herramientas y Tecnologías
 * **Base de Datos & SQL:** SQLite, consultas complejas con CTEs (`WITH`), funciones de ventana (`LAG`, `OVER`), `JOINs` y subconsultas.
 * **Análisis de Datos en Python:** Pandas para limpieza de datos, exportación de reportes y matrices de correlación estadística.
 * **Business Intelligence:** Power BI para modelado de datos, métricas en DAX y diseño de interfaz ejecutiva en modo oscuro.
 * **Control de Versiones:** Git y GitHub aplicando buenas prácticas de estructura y organización.
 
-### 📁 Estructura del Repositorio
+### Estructura del Repositorio
 ```text
 .
 ├── data/
@@ -80,7 +80,7 @@ Este proyecto es un análisis de datos completo de punta a punta (**End-to-End**
 * **Producto Estrella:** El producto *Thüringer Rostbratwurst* es el que más dinero ha generado (**2,19 millones de euros**).
 * **Impacto de Descuentos:** Los descuentos por volumen hacen que los clientes hagan pedidos más grandes sin perder margen de beneficio.
 
-### 🚀 Flujo del Proyecto
+### Flujo del Proyecto
 1. **Extracción:** Carga de la base de datos `northwind.db` en la carpeta `data/raw/`.
 2. **Transformación SQL:** Ejecución de scripts de análisis en la carpeta `sql/` para calcular variaciones de ventas y comportamientos por cliente.
 3. **ETL con Python:** Procesamiento en cuadernos Jupyter para generar reportes agrupados en `data/processed/`.
