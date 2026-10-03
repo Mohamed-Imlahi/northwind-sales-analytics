@@ -1,0 +1,5 @@
+﻿,UnitPrice,Quantity,Discount,LineTotal
+UnitPrice,1.0,0.001,-0.003,0.802
+Quantity,0.001,1.0,0.004,0.39
+Discount,-0.003,0.004,1.0,-0.004
+LineTotal,0.802,0.39,-0.004,1.0
